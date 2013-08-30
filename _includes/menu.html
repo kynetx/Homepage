@@ -5,7 +5,9 @@
                     <div class="span7" id="menu-nav">
                     <div class="nav-collapse"><!---->
                         <ul class="nav nav-pills" id="menus">
-                          <!-- <li><a href="single.html">Single</a></li> -->
+{% if page.pagetype != 'homepage' %} 
+                          <li><a href="/">Home</a></li>
+{% endif %}
                           <li class="dropdown">
                             <a class="dropdown-toggle" data-toggle="dropdown" href="#">Products <b class="caret"></b></a>
                             <ul class="dropdown-menu">
