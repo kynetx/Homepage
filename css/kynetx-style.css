@@ -3,3 +3,10 @@ body {
   padding-top: 50px;
   padding-bottom: 20px;
 }
+
+.case {
+position: relative;
+padding-bottom: 40px;
+background-color: #000;
+color: #8a9299;
+}
