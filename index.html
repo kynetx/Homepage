@@ -6,144 +6,70 @@ published: true
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Kynetx</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="Kynetx Homepage">
+    <meta name="author" content="Phil Windley">
+    <link rel="shortcut icon" href="/img/favicon.png">
 
-    <!-- Le styles -->
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+    <title>Jumbotron Template for Bootstrap</title>
 
-    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!-- Bootstrap core CSS -->
+    <link href="/css/bootstrap.css" rel="stylesheet">
+    <link href="/css/kynetx-style.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="jumbotron.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+      <script src="/js/html5shiv.js"></script>
+      <script src="/js/respond.min.js"></script>
     <![endif]-->
-
-    <!-- Le fav and touch icons -->
-    <link rel="shortcut icon" href="/img/favicon.ico">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
   </head>
 
   <body>
+    {% include menu.html menutype="homepage" %}
 
-    <div class="container wrapper">
-       {% include menu.html menutype="homepage" %}
-      
-        <div class="row">
-            <div class="span12" id="slider">
-                <div id="myCarousel" class="carousel slide">
-                    <div class="carousel-inner">
-                      <div class="item">
-                        <img src="img/slider4.png" alt="">
-                        <div class="carousel-caption">
-                          <h4>First Thumbnail label</h4>
-                          <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                        </div>
-                      </div>
-                      <div class="item active">
-                        <img src="img/slider3.png" alt="">
-                        <div class="carousel-caption">
-                          <h4>Second Thumbnail label</h4>
-                          <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                        </div>
-                      </div>
-                      <div class="item">
-                        <img src="img/slider2.png" alt="">
-                        <div class="carousel-caption">
-                          <h4>Third Thumbnail label</h4>
-                          <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                        </div>
-                      </div>
-                      <div class="item">
-                        <img src="img/slider1.png" alt="">
-                        <div class="carousel-caption">
-                          <h4>Fourth Thumbnail label</h4>
-                          <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                        </div>
-                      </div>
-                    </div>
-                    <a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
-                    <a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
-                  </div>
-            </div><!--/slider-->
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+      <div class="container">
+        <h1>Hello, world!</h1>
+        <p>This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
+        <p><a class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+      </div>
+    </div>
+
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-lg-4">
+          <h2>Heading</h2>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p><a class="btn btn-default" href="#">View details &raquo;</a></p>
         </div>
-        
-        <div class="row">
-            <div class="span12 page-title">
-                <hr class="alt" />
-                    <div class="page-titles">
-                        <h3>The Live Web</h3>
-                        <p>Putting Cloud Computing to Work for People</p>
-                    </div>
-                <hr class="alt" />
-            </div>
+        <div class="col-lg-4">
+          <h2>Heading</h2>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p><a class="btn btn-default" href="#">View details &raquo;</a></p>
+       </div>
+        <div class="col-lg-4">
+          <h2>Heading</h2>
+          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          <p><a class="btn btn-default" href="#">View details &raquo;</a></p>
         </div>
-        
-        <div class="row">
-            <div class="span12" id="content">
-                <div class="row">
-                    <div class="span12">
-                       <div class="row">
-                            <div class="span12">
-                                <div class="post">
-<h2><a href="single.html">Lorem ipsum dolor sit amet.</a></h2>
-<p>
-This is a test of the emergency broadcast system. We're having fun. 
-</p>
-                                </div><!--/post-->
-                                <hr class="alt" />
-                            </div><!--/span-->
-                       </div><!--/row-->
-                    </div><!--/span-->
-                    
-                </div>
-                <div class="row">
-                    <div class="span6">
-                       <div class="row">
-                            <div class="span6">
-                                <div class="post">
-<h2><a href="single.html">Lorem ipsum dolor sit amet.</a></h2>
-<p>
-This is a test of the emergency broadcast system. We're having fun. 
-</p>
-                                </div><!--/post-->
-                                <hr class="alt" />
-                            </div><!--/span-->
-                       </div><!--/row-->
-                    </div><!--/span-->
-                    <div class="span6">
-                       <div class="row">
-                            <div class="span6">
-                                <div class="post">
-<h2><a href="single.html">Lorem ipsum dolor sit amet.</a></h2>
-<p>
-This is a test of the emergency broadcast system. We're having fun. 
-</p>
-                                </div><!--/post-->
-                                <hr class="alt" />
-                            </div><!--/span-->
-                       </div><!--/row-->
-                    </div><!--/span-->
-                    
-                </div>
-            </div>
-        </div>
+      </div>
 
-       {% include footer.html %}
+      <hr>
+     {% include footer.html menutype="homepage" %}
 
-    </div><!--/container-->
+    </div> <!-- /container -->
 
-    <!-- Le javascript
+
+    <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="js/jquery-1.7.2.min.js"></script>
-    <script src="js/bootstrap.js"></script>
-    <script src="js/last-sunday.js"></script>
-
+    <script src="/js/jquery-1.7.2.in.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
   </body>
 </html>

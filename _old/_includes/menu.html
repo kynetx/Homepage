@@ -1,0 +1,39 @@
+        <div class="row">
+            <div class="span12" id="header">
+                <div class="row">
+                    <div class="span5" id="logo"><a href="index.html"><h1><img src="img/Shield-65.png" /> Kynetx</h1></a><p>This Changes Everything</p></div>
+                    <div class="span7" id="menu-nav">
+                    <div class="nav-collapse"><!---->
+                        <ul class="nav nav-pills pull-right" id="menus">
+{% if include.menutype != 'homepage' %} 
+                          <li><a href="/">Home</a></li>
+{% endif %}
+                          <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Products <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                              <li><a href="http://squaretag.com">SquareTag</a></li>
+                              <li><a href="http://squaretag.com">LiveCar</a></li>
+                              <li><a href="liveweb.html">Live Web</a></li>
+                            </ul>
+                          </li>
+                          <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Projects <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                              <li><a href="http://cloudos.me">CloudOS</a></li>
+                              <li><a href="http://forevr.us">Forever</a></li>
+                            </ul>
+                          </li>
+                          <li><a href="http://developer.kynetx.com/">Developers</a></li>
+                          <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Company <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                              <li><a href="about.html">About Us</a></li>
+                              <li><a href="contact.html">Contact Us</a></li>
+                            </ul>
+                          </li>
+                        </ul>
+                    </div> <!---->
+                    </div><!--/span-->
+                </div><!--/row-->
+            </div><!--/span / header -->
+        </div><!--/row-->
