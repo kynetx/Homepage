@@ -5,8 +5,7 @@ body {
 }
 
 .case {
-position: relative;
-padding-bottom: 40px;
+padding: 30px;
 background-color: #000;
 color: #8a9299;
 }
