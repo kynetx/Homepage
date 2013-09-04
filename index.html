@@ -1,5 +1,7 @@
 ---
 title: Kynetx
+authors:
+  - Phil Windley
 published: true
 ---
 <!DOCTYPE html>
@@ -7,11 +9,11 @@ published: true
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Kynetx Homepage">
-    <meta name="author" content="Phil Windley">
+    <meta name="description" content="{{ page.title }}">
+    <meta name="author" content="{{ page.authors | array_to_sentence_string }}">
     <link rel="shortcut icon" href="/img/favicon.png">
 
-    <title>{{page.title}}</title>
+    <title>{{ page.title}}</title>
 
     <!-- Bootstrap core CSS -->
     <link href="/css/bootstrap.css" rel="stylesheet">
