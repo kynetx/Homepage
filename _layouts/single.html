@@ -21,11 +21,11 @@
   </head>
 
   <body>
-    {% include menu.html menutype="homepage" %}
+    {% include menu.html menutype="{{ page.type }}" %}
 
     {{ content }}
 
-    {% include footer.html menutype="homepage" %}
+    {% include footer.html menutype="{{ page.type }}" %}
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
