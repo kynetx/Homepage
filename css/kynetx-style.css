@@ -15,3 +15,9 @@ color: #8a9299;
   color: #BBB;
 }
 
+.navbar-brand-Kynetx {
+  float: left;
+  padding: 15px 15px;
+  font-size: 36px;
+  line-height: 20px;
+}
