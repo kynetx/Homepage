@@ -33,3 +33,61 @@ color: #8a9299;
   text-decoration: none;
 }
 
+
+/* default hover */
+a.sb:hover:after,
+.sb a:hover:after {
+	background-image: none;
+}
+a.sb:hover,
+.sb a:hover,
+a.sb:hover:after,
+.sb a:hover:after {
+	background-color: #efefef;
+	border-color:#ccc;
+}
+
+/* social icon */
+a.sb.twitter,
+.sb a.twitter {
+	background-image: url(/img/twitter_bird.png);
+}
+
+a.sb.facebook,
+.sb a.facebook {
+	background-image: url(/img/facebook.png);
+}
+
+a.sb.linkedin,
+.sb a.linkedin {
+	background-image: url(/img/linkedin.png);
+}
+
+a.sb.github,
+.sb a.github {
+	background-image: url(/img/github.png);
+}
+
+a.sb.youtube,
+.sb a.youtube {
+	background-image: url(/img/youtube.png);
+}
+
+
+
+a.sb.rss,
+.sb a.rss {
+	background-image: url(/img/rss.png);
+}
+
+/* circle style */
+a.sb.circle,
+.sb.circle a,
+a.sb.circle:before,
+.sb.circle a:before,
+a.sb.circle:after,
+.sb.circle a:after {
+	-webkit-border-radius: 10em;
+	-moz-border-radius: 10em;
+	border-radius: 10em;
+}
