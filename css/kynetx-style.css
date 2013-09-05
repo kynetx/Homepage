@@ -4,6 +4,10 @@ body {
   padding-bottom: 20px;
 }
 
+.flexible {
+     max-width: 100%;
+}
+
 .case {
 margin-top: 30px;
 padding: 30px;
