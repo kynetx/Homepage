@@ -20,4 +20,11 @@ color: #8a9299;
   padding: 15px 15px;
   font-size: 36px;
   line-height: 20px;
+  color: #428bca;
 }
+
+.navbar-brand-Kynetx:hover,
+.navbar-brand-Kynetx:focus {
+  text-decoration: none;
+}
+
